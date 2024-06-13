@@ -211,14 +211,23 @@
 * HEAD
 */
 
-//Overrides the bulletproof helm with the older non red visor version.
+//Overrides the bulletproof helm with a fucking altyn helmet because yes
 /obj/item/clothing/head/helmet/alt
+	desc = "An armored helmet based on the NRI Altyn Helmet Design. These helmet provide excellent facial protection, if not, the best against ballistic."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
 	icon_state = "helmetalt_blue"
 	base_icon_state = "helmetalt_blue"
+	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
+	///chat message when the visor is toggled down.
+	var/toggle_message = "You pull the visor down on"
+	///chat message when the visor is toggled up.
+	var/alt_toggle_message = "You push the visor up on"
+	///Can toggle?
+	var/can_toggle = TRUE
 
-//Standard helmet (w/ visor)
+
+//Standard helmet
 /obj/item/clothing/head/helmet/sec
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
@@ -229,16 +238,10 @@
 	flags_cover = HEADCOVERSEYES | PEPPERPROOF
 	visor_flags_cover = HEADCOVERSEYES | PEPPERPROOF
 	dog_fashion = null
-
-	///chat message when the visor is toggled down.
-	var/toggle_message = "You pull the visor down on"
-	///chat message when the visor is toggled up.
-	var/alt_toggle_message = "You push the visor up on"
-	///Can toggle?
-	var/can_toggle = TRUE
+	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
 
 /// Duplication of toggleable logic - only way to make it toggleable without worse hacks due to being in base maps.
-/obj/item/clothing/head/helmet/sec/attack_self(mob/user)
+/obj/item/clothing/head/helmet/alt/attack_self(mob/user)
 	. = ..()
 	if(.)
 		return
@@ -825,7 +828,6 @@
 	icon_state = "helmet"
 	base_icon_state = "helmet"
 	actions_types = null
-	can_toggle = FALSE
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
 	flags_cover = HEADCOVERSEYES
 	flags_inv = HIDEHAIR
