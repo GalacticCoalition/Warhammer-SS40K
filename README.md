@@ -11,7 +11,7 @@
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
 | Git / GitHub cheatsheet   | [https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833](https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833) |
-| Website                   | [https://www.tgstation13.org](https://www.tgstation13.org)          |
+| Website                   | ----         |
 | Wiki                      | [https://warhammer-ss40k.fandom.com/wiki/Warhammer_SS40K_Wiki](https://warhammer-ss40k.fandom.com/wiki/Warhammer_SS40K_Wiki)  |
 | Codedocs                  | ----
 | Warhammer SS40K Discord   | [SS40K Discord](https://discord.gg/hmcdTHtEXQ)
