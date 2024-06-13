@@ -39,15 +39,15 @@
  */
 
 //No department
-#define JOB_ASSISTANT "Assistant"
-#define JOB_PRISONER "Prisoner"
+#define JOB_ASSISTANT "Menial Worker"
+#define JOB_PRISONER "Penal Legionnaire"
 //Command
-#define JOB_CAPTAIN "Captain"
-#define JOB_HEAD_OF_PERSONNEL "Head of Personnel"
-#define JOB_HEAD_OF_SECURITY "Head of Security"
-#define JOB_RESEARCH_DIRECTOR "Research Director"
-#define JOB_CHIEF_ENGINEER "Chief Engineer"
-#define JOB_CHIEF_MEDICAL_OFFICER "Chief Medical Officer"
+#define JOB_CAPTAIN "Hive Governor"
+#define JOB_HEAD_OF_PERSONNEL "Administratum Overseer"
+#define JOB_HEAD_OF_SECURITY "Adeptus Arbites Marshal"
+#define JOB_RESEARCH_DIRECTOR "Magos Biologis"
+#define JOB_CHIEF_ENGINEER "Magos Dominus"
+#define JOB_CHIEF_MEDICAL_OFFICER "Chief Apothecary"
 #define JOB_BRIDGE_ASSISTANT "Bridge Assistant"
 #define JOB_VETERAN_ADVISOR "Veteran Security Advisor"
 //Silicon
@@ -56,49 +56,49 @@
 #define JOB_PERSONAL_AI "Personal AI"
 #define JOB_HUMAN_AI "Big Brother"
 //Security
-#define JOB_WARDEN "Warden"
-#define JOB_DETECTIVE "Detective"
-#define JOB_SECURITY_OFFICER "Security Officer"
+#define JOB_WARDEN "Arbites Custodian"
+#define JOB_DETECTIVE "Arbites Investigator"
+#define JOB_SECURITY_OFFICER "Adeptus Arbites Enforcer"
 #define JOB_SECURITY_OFFICER_MEDICAL "Security Officer (Medical)"
 #define JOB_SECURITY_OFFICER_ENGINEERING "Security Officer (Engineering)"
 #define JOB_SECURITY_OFFICER_SCIENCE "Security Officer (Science)"
 #define JOB_SECURITY_OFFICER_SUPPLY "Security Officer (Cargo)"
 #define JOB_CORRECTIONS_OFFICER "Corrections Officer" // SKYRAT EDIT ADDITION
 //Engineering
-#define JOB_STATION_ENGINEER "Station Engineer"
+#define JOB_STATION_ENGINEER "Tech-Adept"
 #define JOB_ATMOSPHERIC_TECHNICIAN "Atmospheric Technician"
 #define JOB_ENGINEERING_GUARD "Engineering Guard" // SKYRAT EDIT ADDITION
 //Medical
-#define JOB_CORONER "Coroner"
-#define JOB_MEDICAL_DOCTOR "Medical Doctor"
-#define JOB_PARAMEDIC "Paramedic"
-#define JOB_CHEMIST "Chemist"
+#define JOB_CORONER "Mortis Medicus"
+#define JOB_MEDICAL_DOCTOR "Apothecary"
+#define JOB_PARAMEDIC "Field Apothecary"
+#define JOB_CHEMIST "Alchemys Specialist"
 #define JOB_ORDERLY "Orderly" // SKYRAT EDIT ADDITION
 //Science
-#define JOB_SCIENTIST "Scientist"
-#define JOB_ROBOTICIST "Roboticist"
-#define JOB_GENETICIST "Geneticist"
+#define JOB_SCIENTIST "Tech-Priest"
+#define JOB_ROBOTICIST "Servo-Magos"
+#define JOB_GENETICIST "Gene-Magos"
 #define JOB_SCIENCE_GUARD "Science Guard"
 //Supply
-#define JOB_QUARTERMASTER "Quartermaster"
-#define JOB_CARGO_TECHNICIAN "Cargo Technician"
+#define JOB_QUARTERMASTER "Munitorum Prefect"
+#define JOB_CARGO_TECHNICIAN "Munitorum Laborer"
 #define JOB_CARGO_GORILLA "Cargo Gorilla"
-#define JOB_SHAFT_MINER "Shaft Miner"
-#define JOB_BITRUNNER "Bitrunner"
-#define JOB_CUSTOMS_AGENT "Customs Agent" // SKYRAT EDIT ADDITION
+#define JOB_SHAFT_MINER "Promethium Prospector"
+#define JOB_BITRUNNER "Data-Savant"
+#define JOB_CUSTOMS_AGENT "Munitorum Inspector" // SKYRAT EDIT ADDITION
 //Service
-#define JOB_BARTENDER "Bartender"
-#define JOB_BOTANIST "Botanist"
-#define JOB_COOK "Cook"
-#define JOB_CHEF "Chef" // Alternate cook title.
-#define JOB_JANITOR "Janitor"
+#define JOB_BARTENDER "Tavern Keeper"
+#define JOB_BOTANIST "Agri-Tech"
+#define JOB_COOK "Mess Hall Steward"
+#define JOB_CHEF "Mess Hall Steward" // Alternate cook title.
+#define JOB_JANITOR "Hive Custodian"
 #define JOB_CLOWN "Clown"
 #define JOB_MIME "Mime"
-#define JOB_CURATOR "Curator"
-#define JOB_LAWYER "Lawyer"
-#define JOB_CHAPLAIN "Chaplain"
-#define JOB_PSYCHOLOGIST "Psychologist"
-#define JOB_BARBER "Barber" // SKYRAT EDIT ADDITION
+#define JOB_CURATOR "Lexmechanic"
+#define JOB_LAWYER "Inquisitorial Acolyte"
+#define JOB_CHAPLAIN "Confessor"
+#define JOB_PSYCHOLOGIST "Sanctioned Psyker Counselor"
+#define JOB_BARBER "Tonsor Acolyte" // SKYRAT EDIT ADDITION
 #define JOB_BOUNCER "Service Guard" // SKYRAT EDIT ADDITION
 //ERTs
 #define JOB_ERT_DEATHSQUAD "Death Commando"
