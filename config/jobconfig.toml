@@ -127,8 +127,8 @@
 "Playtime Requirements" = 180
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [COOK]
 "Playtime Requirements" = 0
@@ -232,8 +232,8 @@
 "Playtime Requirements" = 180
 "Required Account Age" = 0
 "# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [NANOTRASEN_CONSULTANT]
 "Playtime Requirements" = 2400
