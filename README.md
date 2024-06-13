@@ -14,7 +14,7 @@
 | Website                   | [https://www.tgstation13.org](https://www.tgstation13.org)          |
 | Wiki                      | [https://warhammer-ss40k.fandom.com/wiki/Warhammer_SS40K_Wiki](https://warhammer-ss40k.fandom.com/wiki/Warhammer_SS40K_Wiki)  |
 | Codedocs                  | ----
-| Warhammer SS40K Discord   | ---- |
+| Warhammer SS40K Discord   | [SS40K Discord](https://discord.gg/hmcdTHtEXQ)
 | Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9)               |
 
 This is a Warhammer 40K Space Station 13 derivative. As true to nature as possible.
