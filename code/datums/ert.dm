@@ -7,7 +7,7 @@
 	var/roles = list(/datum/antagonist/ert/security, /datum/antagonist/ert/medic, /datum/antagonist/ert/engineer) //List of possible roles to be assigned to ERT members.
 	var/rename_team
 	var/code
-	var/mission = "Assist the station."
+	var/mission = "Assist the hive."
 	var/teamsize = 5
 	var/polldesc
 	/// If TRUE, gives the team members "[role] [random last name]" style names
@@ -72,7 +72,7 @@
 	roles = list(/datum/antagonist/ert/chaplain/inquisitor, /datum/antagonist/ert/security/inquisitor, /datum/antagonist/ert/medic/inquisitor)
 	leader_role = /datum/antagonist/ert/commander/inquisitor
 	rename_team = "Inquisition"
-	mission = "Destroy any traces of paranormal activity aboard the station."
+	mission = "Destroy any traces of chaotic activity in the hive."
 	polldesc = "a Nanotrasen paranormal response team"
 
 /datum/ert/janitor
