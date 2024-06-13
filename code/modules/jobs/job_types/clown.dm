@@ -37,6 +37,9 @@
 
 	job_tone = "honk"
 
+	total_positions = 0
+	spawn_positions = 0
+
 /datum/job/clown/after_spawn(mob/living/spawned, client/player_client)
 	. = ..()
 	if(!ishuman(spawned))

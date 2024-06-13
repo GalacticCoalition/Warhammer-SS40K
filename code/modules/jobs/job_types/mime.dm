@@ -36,6 +36,9 @@
 
 	job_tone = "silence"
 
+	total_positions = 0
+	spawn_positions = 0
+
 
 /datum/job/mime/after_spawn(mob/living/spawned, client/player_client)
 	. = ..()
