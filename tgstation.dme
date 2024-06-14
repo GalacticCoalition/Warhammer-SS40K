@@ -2880,6 +2880,7 @@
 #include "code\game\turfs\open\floor\misc_floor.dm"
 #include "code\game\turfs\open\floor\plating.dm"
 #include "code\game\turfs\open\floor\reinforced_floor.dm"
+#include "code\game\turfs\open\floor\warhammer_floors.dm"
 #include "code\game\turfs\open\floor\plating\misc_plating.dm"
 #include "code\game\turfs\open\space\space.dm"
 #include "code\game\turfs\open\space\space_EXPENSIVE.dm"

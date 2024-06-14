@@ -4,7 +4,8 @@
  * Handle interaction with tiles and lets you put stuff on top of it.
  */
 /turf/open/floor/plating
-	name = "plating"
+	icon = 'icons/turf/floors.dmi'
+	name = "platingfull"
 	icon_state = "plating"
 	base_icon_state = "plating"
 	overfloor_placed = FALSE
