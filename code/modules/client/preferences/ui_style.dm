@@ -18,7 +18,7 @@
 	return icon
 
 /datum/preference/choiced/ui_style/create_default_value()
-	return GLOB.available_ui_styles[1]
+	return GLOB.available_ui_styles[8]
 
 /datum/preference/choiced/ui_style/apply_to_client(client/client, value)
 	client.mob?.hud_used?.update_ui_style(ui_style2icon(value))
