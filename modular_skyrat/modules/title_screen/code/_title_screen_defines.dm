@@ -1,7 +1,7 @@
 #define DEFAULT_TITLE_MAP_LOADTIME (150 SECONDS)
 
 #define DEFAULT_TITLE_SCREEN_IMAGE 'modular_skyrat/modules/title_screen/icons/skyrat_title_screen.png'
-#define DEFAULT_TITLE_LOADING_SCREEN 'modular_skyrat/modules/title_screen/icons/loading_screen.gif'
+#define DEFAULT_TITLE_LOADING_SCREEN 'modular_skyrat/modules/title_screen/icons/glitched_icon.gif'
 
 #define TITLE_PROGRESS_CACHE_FILE "data/progress_cache.json"
 #define TITLE_PROGRESS_CACHE_VERSION "2"
@@ -13,8 +13,8 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 			<style type='text/css'>
 				@font-face {
-					font-family: "Fixedsys";
-					src: url("FixedsysExcelsior3.01Regular.ttf");
+					font-family: "Gothica-Bold";
+					src: url("Gothica-Bold.ttf");
 				}
 				body,
 				html {
@@ -126,7 +126,7 @@
 				.menu_button {
 					display: block;
 					box-sizing: border-box;
-					font-family: "Fixedsys";
+					font-family: "Gothica-Bold";
 					font-weight: lighter;
 					text-decoration: none;
 					font-size: 4vmin;
@@ -209,7 +209,7 @@
 
 				.menu_notice {
 					display: inline-block;
-					font-family: "Fixedsys";
+					font-family: "Gothica-Bold";
 					font-weight: lighter;
 					text-decoration: none;
 					width: 100%;
